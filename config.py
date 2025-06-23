@@ -12,7 +12,7 @@ class Config(object):
     ADMIN_ID = [int(admin_id) for admin_id in os.environ.get("ADMIN_ID", "6947378236").split(",")]
     
     # MongoDB URL (from environment variable)
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://username:password@dddd.octnw1p.mongodb.net/")
+    DB_URL = os.environ.get("DB_URL", "")
     
     # Database Name (from environment variable)
     DB_NAME = os.environ.get("DB_NAME", "MY_BOT_DB")
@@ -27,10 +27,10 @@ class Config(object):
     CHANNEL = int(os.environ.get("CHANNEL", -1002644382988))
     
     # Channel URL (from environment variable)
-    CH_URL = os.environ.get("CH_URL", "https://t.me/+qEEho66dZJ1kODRi")
+    CH_URL = os.environ.get("CH_URL", "https://t.me/II_Way_to_Success_II")
     
     # Bot Owner Link (from environment variable)
     OWNER = os.environ.get("OWNER", "6947378236")
     
     # Thumbnail URL (from environment variable)
-    THUMB_URL = os.environ.get("THUMB_URL", "https://telegra.ph/file/example-thumb-image.jpg")
+    THUMB_URL = os.environ.get("THUMB_URL", "https://i.postimg.cc/dVmpK7NP/IMG-20250603-180212-401.jpg")
